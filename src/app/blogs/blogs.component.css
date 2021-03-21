@@ -1,0 +1,124 @@
+.blogs-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.blogs-section .container{
+    padding-bottom: 40px;
+}
+
+.blogs-title{
+    position:relative;
+    text-align: center;
+    color:#ffff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.blogs-title::before{
+    content:"";
+    position:absolute;
+    bottom:0px;
+    left: 50%;
+    width: 326px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.blogs-title::after{
+    content:"changing technology";
+    position:absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    color:crimson;
+    padding: 5px;
+    background: #ffff;
+    transform: translateX(-50%);
+}
+
+.three-column-div{
+    column-count: 3;
+    display:flex;
+    
+}
+
+.three-column-div .blog-item{
+    margin-right: 60px;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;  
+}
+
+.blog-item .blog-item-inner{
+    border-radius: 10px;
+    overflow:hidden;
+    border-color: #e8dfec !important;
+    border:1px solid;
+}
+
+.blog-item .blog-item-inner .blog-image{
+    position:relative;
+    overflow:hidden;
+}
+
+.blog-item .blog-item-inner .blog-image img{
+    width: 100%;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.blog-item .blog-item-inner:hover .blog-image img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.blog-item .blog-item-inner .blog-image .blog-date{
+    background-color: crimson;
+    position:absolute;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color:#ffff; 
+    font-size: 14px;
+    font-weight: 600;
+    left:15px;
+    bottom: 15px;
+}
+
+.blog-item .blog-item-inner .blog-info{
+    padding: 30px 15px;
+    background-color: #fdf9ff;
+}
+
+.blog-item .blog-item-inner .blog-info .blog-title{
+    font-size: 18px;
+    font-weight: 700;
+    color:#302e4d;
+    text-transform: capitalize;
+}
+
+.blog-item .blog-item-inner .blog-info .blog-description{
+    font-size: 16px;
+    line-height: 25px;
+    color:#504e70;
+    font-weight: 400;
+}
+
+.blog-item .blog-item-inner .blog-info .blog-tags{
+    font-size: 14px;
+    line-height: 25px;
+    color:#504e70;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.blog-item .blog-item-inner .blog-info .blog-tags a{
+    text-decoration: none;
+    font-weight: 600;
+    color: crimson;
+}
