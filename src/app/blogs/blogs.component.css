@@ -41,6 +41,10 @@
     transform: translateX(-50%);
 }
 
+.blogs-title h2{
+    font-weight: 600;
+}
+
 .three-column-div{
     column-count: 3;
     display:flex;

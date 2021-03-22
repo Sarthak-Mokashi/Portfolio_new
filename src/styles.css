@@ -754,7 +754,7 @@ h1 {
 }
 
 h2 {
-    padding: 14px 0;
+    padding: 0px;
 }
 
 h3 {
@@ -815,8 +815,8 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
-    padding-bottom: 100px;
+    /* padding-top: 170px;
+    padding-bottom: 100px; */
 }
 
 #banner h1 {
@@ -2116,6 +2116,7 @@ blockquote {
 
     nav#nav-main {
         display: none;
+        margin-left: 100px;
     }
 
     nav#nav-mobile {
@@ -2207,7 +2208,7 @@ blockquote {
 
     #landing-footer .social-icons {
         float: right;
-        width: 50%;
+        width: 100%;
     }
 
     /*-----------------Typography-----------------*/
@@ -2383,13 +2384,13 @@ body {
 
 /* Default Link Color */
 
-a, .la-ball-triangle-path {
+/* a, .la-ball-triangle-path {
     color:#d2b356;
 }
 
 a:hover, #header.nav-solid nav a:hover {
     color:#d2b356;
-}
+} */
 
 /* Default Icon Color */
 
@@ -2399,8 +2400,10 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
-    background: #d2b356;
+.testimonial.classic footer:before {
+    background: crimson;
+    margin-top: 55px;
+    margin-left: 70px;
 }
 
 .pricing-block-content:hover {
@@ -2416,7 +2419,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    color:#111;
+    color:crimson;
 }
 
 
@@ -2458,6 +2461,7 @@ a:hover, #header.nav-solid nav a:hover {
     width:30px;
     height:5px;
     margin-top:30px;
+    margin-left: 70px;
 }
 
 .text-center .section-heading h2:after {
@@ -2602,8 +2606,8 @@ h4 {
 h5 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px; 
-    font-weight:400;
-    color:#111;
+    /* font-weight:400;
+    color:#111; */
 }
 
 h6 {

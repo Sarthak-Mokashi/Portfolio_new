@@ -1,4 +1,21 @@
+.logo-nav-social{
+    display:flex;
+    margin-left: 70px;
+ 
+}
+
 .two-column-div{
     display:flex;
-    margin-left: 350px;
+    margin-left: 180px;
+}
+
+#logo{
+    margin-top: 25px;
+    /* padding-left: 70px; */
+}
+
+#logo img::after{
+    background: crimson;
+    margin-top: 55px;
+    margin-left: 70px;
 }
